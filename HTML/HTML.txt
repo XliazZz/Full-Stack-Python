@@ -1,0 +1,86 @@
+La cabecera, con la etiqueta HEAD, donde colocaremos etiquetas de índole informativo,  sirve a los navegadores y otros sistemas para encontrar información útil para entender y procesar el documento.
+
+
+El cuerpo, con la etiqueta BODY, será donde colocaremos nuestro texto e imágenes delimitados a su vez por otras etiquetas.
+
+
+Las mayúsculas o minúsculas son indiferentes al escribir etiquetas, pero es buena practica escribirlos en minusculas.
+
+
+La etiqueta presenta frecuentemente dos partes, su apertura y cierre. 
+<etiqueta> </etiqueta>
+
+
+La etiqueta <b> pone el texto en negrita. 
+<b>Esto está en negrita</b>
+
+
+La etiqueta <p> define un parrafo. Los parrafos estan separados por un doble salto de linea(dejan un espacio vacio).
+<p>Aca podes poner mucho texto</p>
+
+
+la etiqueta <br> que significa un salto de línea simple. NO TIENE CIERRE (</br>)
+
+Esto es una línea.
+<br>
+Esto es otra línea<br>Esto es otra línea
+
+Ahora, cada uno se representaran uno abajo del otro.
+
+------------------------------------------------------------------------------------------------------------------------------------------------
+Las etiquetas pueden cambiar su representacion, especificando dicha alineación en el interior de la etiqueta por medio de un atributo "align".
+
+Si queremos alinear una etiqueta a la izquierda:
+
+<p align="left">Texto alineado a la izquierda</p>
+
+
+Si queremos alinear una etiqueta al centro:
+
+<p align="center">Texto alineado al centro</p>
+
+
+Si queremos alinear una etiqueta a la derecha:
+
+<p align="right">Texto alineado a la derecha</p>
+
+
+Una forma para ahorrar codigo es usar la etiqueta <div> </div>. Produce un salto de linea simple.
+
+Así, el código:
+
+<p align="left">Parrafo1</p>
+<p align="left"> Parrafo3</p>
+<p align="left"> Parrafo2</p>
+
+es equivalente a:
+
+<div align="left">
+
+<p>Parrafo1</p>
+<p>Parrafo2</p>
+<p>Parrafo3</p>
+
+</div>
+
+------------------------------------------------------------------------------------------------------------------------------------------------
+
+La etiqueta de cabecera en concreto es la H1, para los encabezados más grandes, H2 para los de segundo nivel y así hasta H6 que es el encabezado más pequeño. Una página tendrá generalmente un encabezado de nivel 1 y dentro varios de nivel 2. Luego, dentro de los H2 encontraremos si acaso H3.
+
+
+<h1>Encabezado de nivel 1</h1>
+
+<h2>Encabezado de nivel 2</h2>
+
+<h3>Encabezado de nivel 3</h3>
+
+<h4>Encabezado de nivel 4</h4>
+
+<h5>Encabezado de nivel 5</h5>
+
+<h6>Encabezado de nivel 6</h6>
+
+
+------------------------------------------------------------------------------------------------------------------------------------------------
+Tip: En VSC con si escribimos Lorem100 se escribirá un texto de ejemplo de 100 palabras. Y escribiendo p*3 se crearán 3 etiquetas <p>.
+------------------------------------------------------------------------------------------------------------------------------------------------
