@@ -1,3 +1,5 @@
+CLASE 1
+
 La cabecera, con la etiqueta HEAD, donde colocaremos etiquetas de índole informativo,  sirve a los navegadores y otros sistemas para encontrar información útil para entender y procesar el documento.
 
 
@@ -83,4 +85,152 @@ La etiqueta de cabecera en concreto es la H1, para los encabezados más grandes,
 
 ------------------------------------------------------------------------------------------------------------------------------------------------
 Tip: En VSC con si escribimos Lorem100 se escribirá un texto de ejemplo de 100 palabras. Y escribiendo p*3 se crearán 3 etiquetas <p>.
+
+Las etiquetas semanticas ayudan al posicionamiento(seo) y a los navegadores.
 ------------------------------------------------------------------------------------------------------------------------------------------------
+
+CLASE 2
+
+Listas:
+
+Hay dos tipos de listas, listas ordenadas(<ol>) y listas desordenadas (<ul>).
+Cada elemento de la lista se representa con <li> y siempre tiene que ir despues de una etiqueta <ul> o <ol>.
+
+Las lista desordenadas se representan con puntos en la pagina.      
+
+<p> Lista desordenada </p> 
+<ul>
+    <li> Lunes </li>
+    <li> Martes </li>
+    <li> Miercoles </li>
+</ul>
+
+Las listas ordenadas se representan con numeros u letras de menor a mayor.
+
+<p> Lista ordenada </p> 
+<ol>
+    <li> Enero </li>
+    <li> Febrero </li>
+    <li> Marzo </li>
+</ol>
+
+
+Dentro de las listas pueden ir otras listas('listas anidadas'). Esto generara sub-listas.
+
+
+Listas de definicion, sub-categorizan una lista. Se inicia con <dl> y el <dt> es el item principal y <dd> es la sub-categoria de <dt>.
+
+<p> Alimentos lácteos </p>
+<dl>
+    <dt> Leche </dt>
+    <dd> Descremada </dd>
+    <dd> Entera </dd>
+    <dt> Queso </dt>
+    <dd> Fortina </dd>
+    <dd> Mozzarella </dd>
+</dl>
+
+Esto se representa asi:
+Leche   
+    Descremada
+    Entera
+Queso
+    Fontina
+    Moazzarella
+
+
+Enlaces:
+Permite vincular paginas con otras. Esto se hace con la etiqueta <a> y con el atributo href.
+
+El enlace absoluto es un link con direccion http.
+<a href='http://www.google.com'> Ir a Google </a>
+
+
+El enlace relativo es un link pero con dirrecion URL, se usa desde nuestros archivos.
+<a href='img/imágen.jpg'> enlace a una imagen </a>
+
+
+Enlaces internos:
+Se usan para indicar indicar un elemento de nuestra pagina, dirigiendose a un sector en espcifico. Para eso podemos usar un id(#)
+Definimos una seccion o una etiqueta con un id espcifico(cada id tiene un nombre unico, no se puede repetir el nombre).
+
+<a href='#Abajo'> Ir abajo del todo </p>
+
+
+<p id='Abajo'> Abajo de todo</p>
+
+
+Atributos de enlaces:
+
+download: se usa para descargas de archivos.
+href: Especifica la URL de la dirrecion.
+target: Especifica donde abrir el documento. _blank: lo abre en una nueva pestaña, _self: lo abre en la misma pestaña
+
+
+Enlaces locales:
+Se usan para vincular nuestra pagina con otra del mismo sitio web. Ponemos el nombre del archivo html.
+
+<a href='enlaces-locales2.html'> Ir a otra pagina </a>
+
+Para volver hacemos lo mismo pero con el nombre del archivo anterior.
+
+
+Enlaces a correo y archivos:
+
+CORREO: 
+<a href='mailto:martinezelias166@gmail.com'> Enviar correo </a>
+
+Agregar un asunto al correo: 
+<a href='mailto:martinezelias166@gmail.com?subject=Contacto'> Enviar correo </a>
+
+ABRIR PDF:
+<a href='archivo.pdf'> Abrir PDF </a>
+
+DESCARGAR PDF:
+<a href='archivo.pdf' download> Abrir PDF </a>
+
+ABRIR TXT:
+<a href='archivo.txt'> Abrir pxp </a>
+
+DESCARGAR:
+<a href='descargalo.xlsx'> Descargar </a>
+
+
+Etiquetas básicas (formatos de texto):
+<b> Texto en negrita </b>
+<u> Texto subrayado </U>
+<mark> Texto remarcado </mark>
+<ins> Texto insertado </ins>
+<small> Texto mas pequeño </small>
+<i> Textos en Italica o cursica </i>
+<del> Texto tachados </del> 
+Texto normal <sup> Texto en superindice </sup>
+Texto normal <sub> Texto en suberindice </sub>
+Este es un <em> texto en enfasis </em>
+Este es un <strong> texto importante </strong>
+--------------------------------------------------------------------------------------------------------------
+
+La correcta estructura de un documento html es de forma semantica:
+
+<!DOCTYPE html>
+<html> 
+    <head> 
+        <meta charset='UTF-8'
+        <tittle> Ejemplo </tittle>
+        etc...
+    </head>
+
+    <body> 
+        <hearder> </header>
+
+        <nav> </nav>
+
+        <article> </article>
+
+        <section> </section>
+
+        <aside> </aside>
+
+        <footer> </footer>
+    </body>
+</html>
