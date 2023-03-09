@@ -1,0 +1,60 @@
+1. ¿Por qué no utilizamos Microsoft Word para escribir el código de una página web?
+
+RTA:
+No se usa MW para escribir codigo porque MW sobreescribe nuestro codigo y genera un codigo basura adicional.
+
+
+2. ¿Cuál es la diferencia entre Front-End, Back-End y FullStack?
+
+RTA:
+El front-end esta relacionadao con la experiencia/visualizacion de la pagina web, el back-end esta relacionado con la parte de los servidores, datos, etc.. el cliente no puede acceder ni ver estos datos. FullStack seria la capacidad de poder crear una pagina tanto visualmente como tambien la parte de atras de la pagina(servidores, datos, etc.).
+
+
+3. ¿Qué otros protocolos además del TCP/IP existen?
+
+RTA:
+Otros protocolos son POP, SMTP y HTTP.
+
+
+4. ¿El envío de un email puede considerarse un uso de internet?
+
+RTA:
+Si es un uso de internet porque seria imposible enviarlo sin internet.
+
+
+5. ¿Qué diferencia hay entre consultar mis mails por la web de gmail.com a consultarlos
+desde la aplicación de celular? ¿Se utilizan los mismos protocolos?
+
+RTA:
+En el caso del celular, la aplicacion accede a un repositorio de datos para pedir informacion, en el caso de la web es un proceso mas complejo, recibiendo solicitudes y accediendo a servidores.
+Se usan diferentes protocolos en el caso de la aplicaion celular usa IMAP.
+
+
+6. ¿Hay más de una forma de cambiar el color de un texto?
+
+RTA:
+Hay varias formas de cambiar el color de un texto;
+
+Codigo Hex: 
+<p style="color:#FF0000";>Red paragraph text</p>
+
+Con nombres de colores: 
+<p style="color:red;">Red paragraph text</p>
+
+Con RGB:
+<p style="color:rgb(255,0,0);">Red paragraph text</p>
+
+Con valores HSL:
+<p style="color:hsl(0,100%,50%);">Red paragraph text</p>
+
+
+7. ¿Puedo centrar un texto en forma vertical en una página web?
+
+RTA:
+Si se puede con la propiedad 'vertical-aling'.
+
+
+8. ¿Qué otras secciones además de Header y Body existen en una página web?
+
+RTA:
+Existen el nav, footer, aside, main y article.

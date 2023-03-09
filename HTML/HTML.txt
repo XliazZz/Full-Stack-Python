@@ -221,16 +221,14 @@ La correcta estructura de un documento html es de forma semantica:
     </head>
 
     <body> 
-        <hearder> </header>
-
-        <nav> </nav>
-
-        <article> </article>
-
-        <section> </section>
-
+        <hearder> 
+            <nav> </nav>
+        </header>
+            <main> 
+                <section> </section>
+                <article> </article>
+            </main>
         <aside> </aside>
-
         <footer> </footer>
     </body>
 </html>
